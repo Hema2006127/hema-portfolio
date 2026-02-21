@@ -46,20 +46,20 @@ const ContactSection = () => {
     { 
       icon: <Linkedin className="w-5 h-5" />, 
       label: "Linkedin Profile", 
-      value: "Ibrahim Elsayed", 
-      href: "https://linkedin.com/in/YOUR_USERNAME" // 👈 استبدل YOUR_USERNAME بيوزرك
+      value: "Ibrahim mohamed", 
+      href: "https://linkedin.com/in/ibrahim-mohamed-702006127/" // 👈 استبدل YOUR_USERNAME بيوزرك
     },
     { 
       icon: <Github className="w-5 h-5" />, 
       label: "Source Repo", 
       value: "ibrahim-github", 
-      href: "https://github.com/YOUR_USERNAME" // 👈 استبدل YOUR_USERNAME بيوزرك
+      href: "https://github.com/Hema2006127" // 👈 استبدل YOUR_USERNAME بيوزرك
     },
     { 
       icon: <Phone className="w-5 h-5" />, 
-      label: "Call Me", 
-      value: "+20 10XXXXXXX", 
-      href: "tel:+2010XXXXXXX" 
+      label: "Call Me or WhatsApp", 
+      value: "+20 201286643570", 
+      href: "tel:+201286643570" 
     },
   ];
 
