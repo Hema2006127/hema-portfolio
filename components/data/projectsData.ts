@@ -17,9 +17,18 @@ export const projectsData: Project[] = [
     description: "A sophisticated quiz platform built with Flutter, featuring dynamic AI question generation and smooth interface animations.",
     thumbnail: "/projects/quiz-thumb.jpg", 
     screenshots: [
-      "/projects/quiz-1.jpg",
-      "/projects/quiz-2.jpg",
-      "/projects/quiz-3.jpg",
+      "/projects/quiz1.jpg",
+      "/projects/quiz2.jpg",
+      "/projects/quiz3.jpg",
+        "/projects/quiz4.jpg", 
+          "/projects/quiz5.jpg",
+            "/projects/quiz6.jpg",     
+            "/projects/quiz7.jpg", 
+              "/projects/quiz8.jpg",                   
+              "/projects/quiz9.jpg", 
+              "/projects/quiz11.jpg", 
+          
+          
     ],
     tags: ["Flutter", "Dart", "Generative AI", "Firebase"],
     link: "#"
@@ -31,12 +40,21 @@ export const projectsData: Project[] = [
     description: "Modern news aggregator app with real-time API integration, offline reading mode, and a clean Material 3 design.",
     thumbnail: "/projects/news-thumb.jpg",
     screenshots: [
-      "/projects/news-1.jpg",
-      "/projects/news-2.jpg",
-      "/projects/news-3.jpg",
-       "/projects/news-4.jpg",
-        "/projects/news-5.jpg",
-         "/projects/news-6.jpg",
+      "/projects/news1.jpg",
+      "/projects/news2.jpg",
+      "/projects/news3.jpg",
+      "/projects/news4.jpg",
+      "/projects/news5.jpg",
+      "/projects/news6.jpg",
+      "/projects/news7.jpg",
+      "/projects/news8.jpg",
+      "/projects/news9.jpg",
+      "/projects/news10.jpg",
+      "/projects/news11.jpg",
+      "/projects/news12.jpg",
+      "/projects/news13.jpg",
+      "/projects/news14.jpg",
+     
     ],
     tags: ["Flutter", "REST API", "State Management", "NewsAPI"],
     link: "#"
@@ -48,9 +66,8 @@ export const projectsData: Project[] = [
     description: "Full-stack food delivery solution with real-time map tracking, secure checkout, and complex state handling.",
     thumbnail: "/projects/delivery-thumb.jpg",
     screenshots: [
-      "/projects/delivery-1.jpg",
-      "/projects/delivery-2.jpg",
-      "/projects/delivery-3.jpg",
+      "/projects/quiz2.jpg"
+      
     ],
     tags: ["Flutter", "Google Maps", "Stripe", "Node.js"],
     link: "#"

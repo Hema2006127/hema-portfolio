@@ -7,7 +7,7 @@ import ServicesSection from "@/components/ServicesSection";
 
 import ProjectsSection from "@/components/ProjectsSection";
 
-
+import TestimonialsSection from "@/components/TestimonialsSection";
 import ContactSection from "@/components/ContactSection";
 
 export default function Page() {
@@ -21,8 +21,7 @@ export default function Page() {
         <EducationSection />
       <ServicesSection />
           <ProjectsSection />
-      
-     
+      <TestimonialsSection />
       <ContactSection />
     </main>
   );

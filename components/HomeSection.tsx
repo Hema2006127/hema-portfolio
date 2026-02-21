@@ -5,6 +5,7 @@ import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import { Github, Linkedin, ArrowRight, ExternalLink } from "lucide-react";
 import AnimatedAvatar from "@/components/AnimatedAvatar";
+import Link from "next/link";
 
 export default function HomeSection() {
   const [count, setCount] = useState(0);
@@ -111,26 +112,32 @@ export default function HomeSection() {
             experiences with a focus on clean architecture and user-centric design.
           </p>
 
-          {/* Action Buttons */}
-          <div className="flex flex-wrap gap-5 mb-12">
-            <motion.button 
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="group relative px-8 py-4 bg-blue-600 text-white rounded-2xl font-bold flex items-center gap-2 overflow-hidden shadow-[0_0_20px_rgba(37,99,235,0.3)]"
-            >
-              <div className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/20 to-white/0 -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
-              <span>Hire Me Now</span>
-              <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
-            </motion.button>
+         {/* Action Buttons */}
+<div className="flex flex-wrap gap-5 mb-12">
+  {/* زر Hire Me Now - يوجه لصفحة التواصل أو يفتح الإيميل */}
+  <Link href="#contact" scroll={true}>
+    <motion.button 
+      whileHover={{ scale: 1.05 }}
+      whileTap={{ scale: 0.95 }}
+      className="group relative px-8 py-4 bg-blue-600 text-white rounded-2xl font-bold flex items-center gap-2 overflow-hidden shadow-[0_0_20px_rgba(37,99,235,0.3)]"
+    >
+      <div className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/20 to-white/0 -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
+      <span>Hire Me Now</span>
+      <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+    </motion.button>
+  </Link>
 
-            <motion.button 
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="px-8 py-4 border border-slate-800 hover:border-slate-600 text-slate-200 rounded-2xl font-bold transition-all backdrop-blur-sm"
-            >
-              View Projects
-            </motion.button>
-          </div>
+  {/* زر View Projects - يوجه لقسم المشاريع */}
+  <Link href="#projects" scroll={true}>
+    <motion.button 
+      whileHover={{ scale: 1.05 }}
+      whileTap={{ scale: 0.95 }}
+      className="px-8 py-4 border border-slate-800 hover:border-slate-600 text-slate-200 rounded-2xl font-bold transition-all backdrop-blur-sm"
+    >
+      View Projects
+    </motion.button>
+  </Link>
+</div>
 
           {/* Social Links with Tooltip style */}
           <div className="flex gap-4">

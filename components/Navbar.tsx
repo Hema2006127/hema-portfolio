@@ -6,8 +6,18 @@ import Link from "next/link";
 import { useScrollSpy } from "@/hooks/useScrollSpy";
 
 export default function Navbar() {
-  // أضفنا "education" هنا بالترتيب الصحيح
-  const sections = ["home", "about", "skills", "education", "services", "projects", "contact"];
+  // 1. أضفنا "testimonials" هنا في المصفوفة ليظهر في القائمة
+  const sections = [
+    "home", 
+    "about", 
+    "skills", 
+    "education", 
+    "services", 
+    "projects", 
+    "testimonials", // القسم الجديد هنا
+    "contact"
+  ];
+  
   const activeSection = useScrollSpy(sections);
   const [isScrolled, setIsScrolled] = useState(false);
 
